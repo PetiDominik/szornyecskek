@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main, header, nav, article, div, section {
+    border: 1px solid lightgray;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffcc66;
+    text-align: center;
+    background: #339900;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+}
+
+nav a:hover {
+    background: #66cc00;
+    color: #ff3300;
+}
+
+#aktiv {
+    color: #ffff33;
+    background: #66cc00;
+}
+
+article {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px); 
+}
+
+article div {
+    text-align: center;
+    color: lightgrey;
+}
+
+main h1 {
+    padding: 30px;
+    color: #339900;
+}
+
+.egySzem {
+    order: -6;
+}
+
+.ketSzem {
+    order: -5;
+}
+.haromSzem {
+    order: -4;
+}
+.negySzem {
+    order: -3;
+}
+.otSzem {
+    order: -2;
+}
